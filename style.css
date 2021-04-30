@@ -104,6 +104,9 @@ body {
     text-align: center;
 }
 
+.main-section img {
+    border-radius: 50%;
+}
 /*portfolio section*/
 #portfolio {
     margin-left: 35%;
