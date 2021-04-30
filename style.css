@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;
+    margin:0;
     font-family:Arial, Helvetica, sans-serif;
     height: 100%;
 }
@@ -48,6 +48,7 @@ body {
     color: snow;
     width: 10%;
     text-decoration: none;
+    
 }
 
 /*sidebar styling*/
@@ -60,6 +61,10 @@ body {
     background-color: grey;
     overflow-x: hidden;
     padding-top: 10px;
+}
+
+.social-media-icons {
+    
 }
 
 /*main section styling*/
