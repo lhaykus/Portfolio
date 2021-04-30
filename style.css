@@ -1,13 +1,14 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
-/*hero-image styling and text*/
+/*hero image styling*/
 
 .hero-image {
     background:url(./Assets/Images/lights.jpg) no-repeat center;
@@ -15,6 +16,8 @@ body {
     height: 450px;
     position: relative;
 }
+
+/*hero image content*/
 
 .hero-text {
     text-align: center;
@@ -25,6 +28,8 @@ body {
 
 }
 
+/*navbar styling*/
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -33,6 +38,8 @@ body {
     background-color: black;
 
 }
+
+/*content in navbar*/
 
 .navbar a {
     padding: 1 1;
@@ -43,19 +50,22 @@ body {
     text-decoration: none;
 }
 
+/*sidebar styling*/
+
 #sidebar {
-    display: flex;
-    flex-flow: column wrap;
-    padding: 10px;
-    float: left;
+    height: 100%;
     width: 25%;
-    font-size: 110%;
-    background-color: gray;
+    position:absolute;
+    z-index: 1;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 10px;
 }
 
-
+/*main section styling*/
 
 .main-section {
+    margin-left: 25%;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -63,12 +73,21 @@ body {
     flex-wrap: nowrap;
 }
 
+/*main section headings styling*/
+
 .main-section h2 {
     text-align: left;
     font-size: 300%;
 }
 
+/*main section content styling*/
+
 .main-section p {
-    font-size: 200%;
+    font-size: 180%;
     text-align: center;
 }
+
+
+/*footer section*/
+
+/*media queries*/
