@@ -120,6 +120,10 @@ body {
     
 }
 
+.container {
+    display: flex;
+    
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -127,17 +131,38 @@ body {
     margin-top: 10rem;
     margin-left: -50rem;
     margin-right: -3.0rem;
-    justify-content: center;
     border: hotpink solid;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    border: indigo;
+    width: 40%;
+    padding: 1rem;
+   
 }
+
+.column img {
+    width: 80%;
+    height: 50%;
+    transition: width 2s;
+}
+
+.column img:hover {
+    width: 100%;
+}
+
+
 /*footer section*/
 
 /*media queries*/
+@media screen and (max-width 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (max-width 600px) {
+    
+}
 
     
