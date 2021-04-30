@@ -5,13 +5,14 @@
 body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: ;
 }
 
+/*hero-image styling and text*/
+
 .hero-image {
-    background:url(lights.jpg) no-repeat center;
+    background:url(./Assets/Images/lights.jpg) no-repeat center;
     background-size: cover;
-    height: 400px;
+    height: 450px;
     position: relative;
 }
 
@@ -42,14 +43,17 @@ body {
     text-decoration: none;
 }
 
-.sidebar {
+#sidebar {
     display: flex;
     flex-flow: column wrap;
     padding: 10px;
     float: left;
     width: 25%;
     font-size: 110%;
+    background-color: gray;
 }
+
+
 
 .main-section {
     display: flex;
@@ -57,4 +61,14 @@ body {
     width: 70%;
     padding: 200px;
     flex-wrap: nowrap;
+}
+
+.main-section h2 {
+    text-align: left;
+    font-size: 300%;
+}
+
+.main-section p {
+    font-size: 200%;
+    text-align: center;
 }
