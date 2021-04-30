@@ -3,9 +3,10 @@
 }
 
 body {
-    margin:0;
+    margin:10;
     font-family:Arial, Helvetica, sans-serif;
     height: 100%;
+
 }
 
 /*hero image styling*/
@@ -67,11 +68,16 @@ body {
     font-size: 200%;
 }
 
+/*stlying of the social media icons in the sidebar*/
+
 .social-media-icons {
     text-align: center;
     position: top;
+    font-size: 120%;
+    position: relative;
     
 }
+
 
 /*main section styling*/
 
@@ -98,7 +104,35 @@ body {
     text-align: center;
 }
 
+/*portfolio section*/
+#portfolio {
+    margin-left: 35%;
+    display: flex;
+}
 
+#portfolio h1 {
+    font-size: 300%;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30rem;
+    margin-left: -30rem;
+    margin-right: -3.0rem;
+    justify-content: center;
+    border: hotpink solid;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    border: indigo;
+}
 /*footer section*/
 
 /*media queries*/
+
+    
