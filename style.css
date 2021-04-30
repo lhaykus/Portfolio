@@ -84,11 +84,9 @@ body {
 
 .main-section {
     margin-left: 25%;
-    display: flex;
-    flex-direction: column;
     width: 70%;
     padding: 200px;
-    flex-wrap: nowrap;
+    
 }
 
 /*main section headings styling*/
@@ -144,24 +142,30 @@ body {
 .column img {
     width: 80%;
     height: 50%;
-    transition: width 2s;
+    transition: width 1s;
 }
 
 .column img:hover {
     width: 100%;
 }
 
+.img-header {
+    font-size: 200%;
+}
+
 
 /*footer section*/
 
+
+
+
 /*media queries*/
-@media screen and (max-width 600px) {
+@media screen and (min-width 1000px) {
     .column {
         width: 100%;
+        align-items: center;
+
     }
-}
-@media screen and (max-width 600px) {
     
-}
 
     
