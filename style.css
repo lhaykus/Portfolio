@@ -58,12 +58,18 @@ body {
     width: 25%;
     position:absolute;
     z-index: 1;
-    background-color: grey;
     overflow-x: hidden;
-    padding-top: 10px;
+    padding-top: 15%;
+    
+}
+
+#sidebar h2 {
+    font-size: 200%;
 }
 
 .social-media-icons {
+    text-align: center;
+    position: top;
     
 }
 
