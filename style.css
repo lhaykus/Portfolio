@@ -159,17 +159,30 @@ body {
 
 
 /*footer section*/
+footer {
+    position:fixed;
+    bottom: 0;
+}
 
 
 
 
 /*media queries*/
-@media screen and (min-width 1000px) {
-    .column {
-        width: 100%;
-        align-items: center;
 
+    
+@media screen and (max-width 800px) {
+    .container{
+        flex-direction: row;
+        
+    }
+
+}
+
+@media screen and (max-width 800px) {
+    .navbar {
+        flex-wrap: wrap;
+        
     }
     
-
+}
     
