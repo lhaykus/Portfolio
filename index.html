@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://kit.fontawesome.com/835a4ddcce.js" crossorigin="anonymous"></script>
     <title>Loryn Haykus's Portfolio</title>
@@ -13,16 +14,30 @@
 </head>
 
 <body>
-    <nav>
-        <div class="flex-container">
-            <div class="navbar">
-                <a href="#aboutme">About Me</a>
-                <a href="#mywork">My Work</a>
-                <a href="#contactme">Contact Me</a>
-            </div>
-        </div>
-    </nav>
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Hello</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contact Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#mywork">My Work</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            
+          </nav>
+    </header>
     <div class="hero-image">
         <div class="hero-text">
             <h1> Hello, I am Loryn Haykus</h1>

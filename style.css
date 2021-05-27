@@ -29,27 +29,13 @@ body {
     top:20%;
     color: snow;
 }
+ .navbar {
+     font-weight: bolder;
+     color: white;
+     font-size: 150%;
+ }
+ 
 
-/*navbar styling*/
-
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 200%;
-    width: 100%;
-    background-color: black;
-}
-
-/*content in navbar*/
-
-.navbar a {
-    padding: 1 1;
-    color: black;
-    font-size: 100%;
-    color: snow;
-    width: 10%;
-    text-decoration: none;
-}
 
 /*sidebar styling*/
 
