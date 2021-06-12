@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://kit.fontawesome.com/835a4ddcce.js" crossorigin="anonymous"></script>
     <title>Loryn Haykus's Portfolio</title>
@@ -17,26 +18,27 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Loryn's Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-             
+                <a class="navbar-brand" href="#">Loryn's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contactme">Contact Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#mywork">My Work</a>
-                  </li>
-                  
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mywork">My Work</a>
+                    </li>
+
                 </ul>
-              </div>
-            
-          </nav>
+            </div>
+
+        </nav>
     </header>
     <div class="hero-image">
         <div class="hero-text">
@@ -51,71 +53,92 @@
         <div id="contactme"></div>
         <ul class="social-media-icons">
             <h2>Contact Me</h2>
-
-            <a target="blank" href="https://www.linkedin.com/in/loryn-haykus-490957136/"
-                rel="https://www.linkedin.com/"><br>Linkedin<br></a><i class="fab fa-linkedin"
-                style="font-size:100px; color:black;"></i>
-            <br>
-            <br>
+            <button type="button" class="btn linkedinBtn">
+                <a target="blank" href="https://www.linkedin.com/in/loryn-haykus-490957136/"
+                    rel="https://www.linkedin.com/"><i class="fab fa-linkedin"
+                        style="font-size:100px; color:black;"></i></a></button>
             <br>
             <a target="blank"></a><i class="fas fa-envelope"
                 style="font-size:100px; color: deeppink;"></i><br>lorynhaykus@yahoo.com<br>
-            
+            <br>
+            <button type="button" class="btn githubBtn">
+                <a target="blank" href="https://github.com/lhaykus" rel="https://github.com"> <i class="fab fa-github"
+                        style="font-size: 100px; color: black;"></i></a></button>
+
+
+
             </u>
     </div>
 
 
     <section class="main-section">
-        <div id="aboutme"></div>
-        <h2>About Me</h2>
-        <img src="Assets/Images/laracroft.jpg" alt="avatar of lara croft from tomb raider"
-            style="width:35%; height:35%">
+        <div class="container-fluid">
+            <div id="aboutme"></div>
+            <h2>About Me</h2>
+            <img src="Assets/Images/laracroft.jpg" alt="avatar of lara croft from tomb raider"
+                style="width:35%; height:35%">
 
-        <p> Hello! Welcome to my portfolio where I get to showcase all the work I have done
-            on my journey of becoming a full stack software developer. I am currently a student at University of
-            Denver, enrolled in the coding bootcamp in hopes of furthering my knowledge of coding and development to
-            help me kickstart a new career. Video games and computers have always played a big part in my life so
-            becoming a software developer is quite exciting for me. Other than coding and video games, I have a huge
-            love for cars and racing, as well as nature and animals. This portfolio is the just the beginning of my
-            journey and I am excited to add projects over the years!</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <p> Hello! Welcome to my portfolio where I get to showcase all the work I have done
+                on my journey of becoming a full stack software developer. I am currently a student at University of
+                Denver, enrolled in the coding bootcamp in hopes of furthering my knowledge of coding and development to
+                help me kickstart a new career. Video games and computers have always played a big part in my life so
+                becoming a software developer is quite exciting for me. Other than coding and video games, I have a huge
+                love for cars and racing, as well as nature and animals. This portfolio is the just the beginning of my
+                journey and I am excited to add projects over the years!</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
     </section>
 
     <section id="portfolio">
         <div id="mywork"></div>
         <h1>Portfolio</h1>
 
-        <section class="container-fluid">
+        <section class="container-fluid flex-wrap">
             <div class="row">
-                <div class="column">
+                <div class="col-6">
                     <h2 class="img-header">Video Game and Movie Quiz </h2>
-                    
+
                     <a href="https://lhaykus.github.io/video-game-quiz/" target="blank">
-                    <img src="./Assets/Images/quiz.gif" alt="Quiz">
-                </a>
-            
+                        <img src="./Assets/Images/quizgif.gif" alt="Quiz">
+                        <a href="https://github.com/lhaykus/video-game-quiz" target="_blank"
+                            style="color:black;">Github</a>
+                    </a>
+                </div>
+                <div class="col-6">
                     <br>
                     <h2 class="img-header">Make My Day App</h2>
-                    <a href="https://github.com/TheMimmzyy/First_Project" target="blank">
-                    <img src="./Assets/Images/favoritesgif.gif" alt="Make My Day App"></a><br>
-                    <h2 class="img-header">Future Work</h2>
-                    <img src="Assets/Images/codehallway.jpg" alt="a hallway of binary code">
+                    <a href="https://themimmzyy.github.io/First_Project/Home/index.html" target="blank">
+                        <img src="./Assets/Images/project1.gif" alt="Make My Day App"></a>
+                    <a href="https://github.com/TheMimmzyy/First_Project" target="_blank"
+                        style="color: black;">Github</a>
+                </div>
+                <div class="col-6">
+                    <h2 class="img-header">Weather Dashboard</h2>
+                    <a href="https://lhaykus.github.io/Weather-Dashboard/" target="_blank">
+                        <img src="./Assets/Images/weatherdashgif.gif" alt="a weather dashboard"></a>
+                    <a href="https://github.com/lhaykus/Weather-Dashboard" target="_blank"
+                        style="color: black;;">Github</a>
                 </div>
             </div>
-        
+            </div>
 
-        <footer>
-            Loryn's Studio
-        </footer>
-    </section>
+
+            <footer>
+                Loryn's Studio
+            </footer>
+        </section>
 
 
 
 
 </body>
+
+
+
+
 
 </html>
